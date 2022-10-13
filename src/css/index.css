@@ -1,0 +1,13 @@
+:root{
+  --bg-gray: #202023;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+
+*{
+  background-color: var(--bg-gray) !important;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}

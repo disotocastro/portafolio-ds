@@ -1,0 +1,42 @@
+.about-me{
+  color: white;
+}
+.about-me h3{
+  font-size: 2rem;
+
+  text-decoration: underline;
+  text-decoration-color: var(--light-gray);
+  line-height: 1.33;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
+
+
+}
+.about-me p{
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 1em;
+  hyphens: auto;
+
+  margin-top: 1rem;
+}
+
+#portfolio-btn{
+  font-size: 1.5rem;
+  width: 150;
+  height: 40;
+
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+
+  color: black ;
+  background-color: var(--light-blue) !important;
+}
+
+#portfolio-btn:hover{
+  opacity: 95%;
+}

@@ -1,5 +1,34 @@
 :root{
   --bg-gray: #202023;
+  --light-gray: #313134;
+  --light-blue: #81e6d9;
+
+  --chakra-fontSizes-xs: 0.75rem;
+  --chakra-fontSizes-sm: 0.875rem;
+  --chakra-fontSizes-md: 1rem;
+  --chakra-fontSizes-lg: 1.125rem;
+  --chakra-fontSizes-xl: 1.25rem;
+  --chakra-fontSizes-2xl: 1.5rem;
+  --chakra-fontSizes-3xl: 1.875rem;
+  --chakra-fontSizes-4xl: 2.25rem;
+  --chakra-fontSizes-5xl: 3rem;
+  --chakra-fontSizes-6xl: 3.75rem;
+  --chakra-fontSizes-7xl: 4.5rem;
+  --chakra-fontSizes-8xl: 6rem;
+  --chakra-fontSizes-9xl: 8rem;
+  --chakra-fontWeights-hairline: 100;
+  --chakra-fontWeights-thin: 200;
+  --chakra-fontWeights-light: 300;
+  --chakra-fontWeights-normal: 400;
+  --chakra-fontWeights-medium: 500;
+  --chakra-fontWeights-semibold: 600;
+  --chakra-fontWeights-bold: 700;
+  --chakra-fontWeights-extrabold: 800;
+  --chakra-fontWeights-black: 900;
+
+
+
+
 }
 
 html{
@@ -10,4 +39,23 @@ html{
 *{
   background-color: var(--bg-gray) !important;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+.main-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40rem !important;
+  height: 10rem !important;
+}
+
+.main-container-2{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  width: 40rem !important;
+  /* height: 10rem !important; */
 }

@@ -1,23 +1,50 @@
-.project{
+/* .project{
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 230px;  
-  width: 235px;  
+  width: 200px !important;  
 }
 
 .project img{
-  width: 230px;
-  height: 130px;
+  margin-top: 10px;
+  width: 225px;
+  height: 145px;
+  border-radius: 5px;
 }
 
+.project h2{
+  font-size: 16px !important;
+}
 
-.projects-container{
+.project-container{
   display: flex;  
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  justify-content: space-between;
+}
 
+.project p{
+  font-size: 12px;
+  margin-top: 0px !important;
+} */
+
+
+
+.card {
+  border: none !important;
+  border-radius: 10px;
+}
+.card img {
+  border-radius: 10px;
+}
+.card h5{
+  color: white;
+  font-size: 20px;
+}
+.card p {
+  color: white;
+  font-size: 15px;
 
 }

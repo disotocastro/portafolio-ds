@@ -7,11 +7,15 @@
 
 #navbar a{
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 
-.dropdown-item a:hover{
-  color: white;
+.nav-item-focus a{
+  color: var(--light-blue);
+}
+
+.nav-item a:hover{
+  color: var(--light-blue);
 }
 
 .nav-item{

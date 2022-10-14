@@ -2,6 +2,8 @@
   --bg-gray: #202023;
   --light-gray: #313134;
   --light-blue: #81e6d9;
+  --purple: rgb(255, 99, 195);
+
 
   --chakra-fontSizes-xs: 0.75rem;
   --chakra-fontSizes-sm: 0.875rem;
@@ -25,9 +27,6 @@
   --chakra-fontWeights-bold: 700;
   --chakra-fontWeights-extrabold: 800;
   --chakra-fontWeights-black: 900;
-
-
-
 
 }
 

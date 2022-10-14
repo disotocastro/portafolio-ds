@@ -6,8 +6,9 @@
 .about-me{
   color: white;
 }
-.about-me h3{
+.main-container-2 h3{
   font-size: 2rem;
+  color: white;
 
   text-decoration: underline;
   text-decoration-color: var(--light-gray);
@@ -50,4 +51,5 @@
   background-color: var(--light-gray) !important;
   padding: 1rem;
   border-radius: 10px;
+
 }

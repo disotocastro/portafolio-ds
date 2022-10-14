@@ -1,0 +1,23 @@
+.project{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 230px;  
+  width: 235px;  
+}
+
+.project img{
+  width: 230px;
+  height: 130px;
+}
+
+
+.projects-container{
+  display: flex;  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}

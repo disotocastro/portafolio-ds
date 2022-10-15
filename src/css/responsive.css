@@ -1,0 +1,64 @@
+@media(max-width: 480px){
+
+  .main-container{
+    width: 36rem !important;
+  }
+
+  .main-container-2 h3{    
+    font-size: 1.7rem;
+    color: white;
+
+    text-decoration: underline;
+    text-decoration-color: var(--light-gray);
+    line-height: 1.33;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+  }
+
+  .about-me p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 1em;
+    hyphens: auto;
+  
+    margin-top: 1rem;
+  }
+
+  .ds__aboutme{
+    width: 340px;
+    height: 240px;
+  }
+
+  .skills-container img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .ds__bio-container{
+    width: 340px;
+    height: 130px;
+  }
+
+  .bio-text h2 {
+    font-size: 35px;
+  }
+
+  .intro-text {
+    width: 324px !important;
+    font-size: 13px;
+
+}
+
+
+
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 1024px){
+
+}

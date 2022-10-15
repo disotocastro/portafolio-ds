@@ -26,6 +26,12 @@
     margin-top: 1rem;
   }
 
+  .ds__aboutme-size{
+    width: 340px;
+    height: 110px !important;
+  }
+
+
   .ds__aboutme{
     width: 340px;
     height: 240px;
@@ -48,9 +54,7 @@
   .intro-text {
     width: 324px !important;
     font-size: 13px;
-
-}
-
+  }
 
 
 }
